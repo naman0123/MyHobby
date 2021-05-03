@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    color: #1e1e1e;
+    font-family: 'PT Serif';
+    background-color: #ededed;
+}
+
+#quote {
+    width: 800px;
+    display: table;
+    position: absolute;
+    opacity: 0.4;
+    margin-bottom: 20px;
+    margin-left: -80px;
+}
+
+#quoteDiv h1 {
+    color: #a3a3a3;
+}
+
+.menu {
+    background-color: #d1d1d1;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    padding: 10px;
+    opacity: 0.8;
+    font-family: 'Open Sans';
+    margin-left: -10px;
+}
+
+.links {
+    display: inline-block;
+    padding-left: 33px;
+    padding-right: 25px;
+    height: auto;
+}
+
+.links a {
+    color: #1e1e1e;
+}
+
+.links a:hover {
+    cursor: pointer;
+    text-shadow: 1.5px 0.5px 12px #737373;
+}
+
+#me {
+    width: 260px;
+    height: 245px;
+    box-shadow: 12px 9px 25px #adadad;
+    border-radius: 100%;
+}
+
+#me:hover {
+    box-shadow: 12px 9px 30px #969696;
+}
+
+#contact {
+    background-color: #1d1d1d;
+    color: #ededed;
+    font-family: 'Open Sans';
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-left: -10px;
+    margin-bottom: -25px;
+    margin-top: 18px;
+}
+
+.contactList {
+    list-style: none;
+}
+
+a {
+    color: #ededed;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ededed;
+    cursor: pointer;
+    text-shadow: 1.5px 0.5px 5px #b0b0b0;
+}
+
+a:visited {
+    color: #ededed;
+}
